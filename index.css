@@ -1,0 +1,27 @@
+body,h1{
+    margin: 0px !important;
+}
+/* declare your css variables here */
+:root{
+    --padding : 0px;
+    --opacity: 1;
+}
+.container{
+    background-color: darkslategrey;
+    text-align: center;
+    height: 100vh;
+    padding: 2em;
+    color: #fff;
+    overflow-x: hidden;
+}
+img{
+    max-width: 70%;
+    height: auto;
+    margin-top: 25px;
+    padding: var(--padding);
+    border: 10px solid yellow;
+    opacity: (var(--opacity));
+}
+.controls{
+    margin-top: 20px;
+}
